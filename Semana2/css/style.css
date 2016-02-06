@@ -1,0 +1,343 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width:100%;
+ 
+}
+body {
+  margin: 0;
+  padding: 0;
+  width:100%;	
+  background: #f2f2f2; 
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.info p {
+  text-align:center;
+  color: #999;
+  text-transform:none;
+  font-weight:600;
+  font-size:15px;
+  margin-top:2px
+}
+
+.info i {
+  color:#FF8C94;
+}
+a {
+  text-decoration : inherit
+}
+h1 {
+  text-align: center;
+  color: #ff9999;
+  text-shadow: 1px 1px 0px #FFF;
+  margin:50px 0px 0px 0px
+}
+
+h2 {
+  color: #40bf80;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+  font-weight:700;
+  vertical-align: middle;
+  background-color:#f2f2f2;
+  width:20%;
+  margin:7% auto auto auto;
+}
+h3 {
+  color:#fff;
+  font-size: 18px;
+}
+hr {
+  z-index:-1;
+  border-bottom:0;
+  border:1px solid #666;
+  border-radius:10px;
+  position:relative;
+  bottom:25px;
+}
+p {
+  color: #fff;
+}
+
+.clearfix {
+  clear: both;
+}
+.content {
+  width:100%; 
+  height: auto;
+  overflow: hidden;
+}
+.dashboard {
+  max-width:1080px; 
+  margin:90px auto;
+}
+.cube {
+  position: relative;
+  width: 250px; 
+  height:230px; 
+  background: green;
+  float:left;
+  margin:10px 10px 80px 10px;
+  overflow: hidden;
+}
+.cube div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+
+.bg7 {
+  background-image:url("file:///Users/america_ML/Documents/chavon/spring/coding/Semana2/images/15.jpg"); 
+  background-size: cover;
+  background-size: 250px auto;
+}
+
+.bg8 {
+  background-image:url("file:///Users/america_ML/Documents/chavon/spring/coding/Semana2/images/16.jpg"); 
+  background-size: cover;
+  background-size: 250px auto;
+}
+
+.bg9 {
+  background-image:url("file:///Users/america_ML/Documents/chavon/spring/coding/Semana2/images/17.jpg"); 
+  background-size: cover;
+  background-size: 250px auto; 
+}
+
+.bg10 {
+  background-image:url("file:///Users/america_ML/Documents/chavon/spring/coding/Semana2/images/18.jpg"); 
+  background-size: cover;
+  background-size: 250px auto; 
+}
+
+/* ---------- ANIMATION -------------------------*/
+
+.slideTextUp img {
+  margin-top:20px;
+}
+
+.slideTextUp div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.slideTextUp div:nth-child(2) { 
+  top: 100%;
+}
+
+.slideTextUp:hover div {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.slideTextRight img {
+  margin-top:20px;
+}
+
+.slideTextRight div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.slideTextRight div:nth-child(2) { 
+  left: 100%;
+}
+.slideTextRight:hover div {
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.slideTextBottom img {
+  margin-top:20px;
+}
+.slideTextBottom div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.slideTextBottom div:nth-child(2) {
+  top: -100%;
+}
+
+.slideTextBottom:hover div {
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.slideTextLeft img {
+  margin-top:20px;
+}
+
+.slideTextLeft div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.slideTextLeft div:nth-child(2) {
+  left: -100%;
+}
+
+.slideTextLeft:hover div {
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.front {
+  background-color: green;
+}
+.rotate3dY {
+  background-color: transparent;
+}
+
+.rotate3dX {
+  background-color: transparent;
+}
+
+.rotate3dY .back {
+  -webkit-transform: rotateY( 180deg );
+  -ms-transform: rotateY( 180deg ); 
+  transform: rotateY( 180deg );
+}
+
+.rotate3dX .back {
+  -webkit-transform: rotateX( 180deg );
+  -ms-transform: rotateX( 180deg );
+  transform: rotateX( 180deg );
+}
+
+.rotate3dY:hover .faces:hover {
+  -webkit-transform: rotateY( 180deg );
+  -ms-transform: rotateY( 180deg );
+  transform: rotateY( 180deg );
+}
+
+.rotate3dX:hover .faces:hover { 
+  -webkit-transform: rotateX( 180deg );
+  -ms-transform: rotateX( 180deg );
+  transform: rotateX( 180deg );
+}
+
+.cube figure {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cube figure img {
+  width: 100%;
+  height: 100%;
+}
+.cube-caption { 
+  font-weight:300;
+  position: absolute; 
+  z-index: 1;
+  background: linear-gradient(to bottom, rgba(255, 140, 148,0.7) 0%, rgba(255, 140, 148, 0.7) 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.caption-top { 
+  left: 0; 
+  top: -100%;
+  right: 0;
+  height: 35%;
+  -webkit-transition: top .3s linear; 
+  transition: top .3s linear;
+}
+
+.cube:hover .caption-top { 
+  top: 0;
+}
+
+.caption-bottom { 
+  left: 0;
+  right: 0;
+  bottom: -100%; 
+  height: 35%; 
+  -webkit-transition: bottom .3s linear;
+  transition: bottom .3s linear;
+}
+
+.cube:hover .caption-bottom { 
+  bottom: 0;
+}
+
+.caption-left {
+  left: -100%; 
+  top: 0; 
+  bottom: 0;
+  width: 40%; 
+  -webkit-transition: left .3s linear; 
+  transition: left .3s linear;
+}
+
+.cube:hover .caption-left { 
+  left: 0;
+}
+
+.caption-right {
+  right: -100%; 
+  top: 0;
+  bottom: 0;
+  width: 40%; 
+  -webkit-transition: right .3s linear; 
+  transition: right .3s linear;
+}
+
+.cube:hover .caption-right { 
+  right: 0;
+}
+
+
+
+
