@@ -123,6 +123,29 @@ p {
   background-size: 250px auto; 
 }
 
+.bg11 {
+  background-image:url("file:///Users/america_ML/Desktop/Web2/Semana2/images/19.jpg"); 
+  background-size: cover;
+  background-size: 250px auto; 
+}
+
+.bg12 {
+  background-image:url("file:///Users/america_ML/Desktop/Web2/Semana2/images/20.jpg"); 
+  background-size: cover;
+  background-size: 250px auto; 
+}
+
+.bg13 {
+  background-image:url("file:///Users/america_ML/Desktop/Web2/Semana2/images/21.jpg"); 
+  background-size: cover;
+  background-size: 250px auto; 
+}
+
+.bg14 {
+  background-image:url("file:///Users/america_ML/Desktop/Web2/Semana2/images/22.jpg"); 
+  background-size: cover;
+  background-size: 250px auto; 
+}
 /* ---------- ANIMATION -------------------------*/
 
 .slideTextUp img {
