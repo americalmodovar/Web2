@@ -1,0 +1,74 @@
+body { 
+  background: #fff;
+ font-family: 'Oswald', sans-serif;
+  font-family: 9px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+div#church-container {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+div#church-container input[type="radio"] { display: none; }
+div#church-container label img { 
+ width: 20%;
+ display: block;
+ float: left;
+ clear: left;
+ border-right: 40px solid #fff;
+}
+div#church-container label:hover { cursor: pointer; 
+}
+div#churches { 
+ width: 90%;
+ position: relative;
+ margin-left: 22.5%;
+}
+div#churches figure { 
+ margin: 0;
+ position: absolute;
+ height: 100%;
+ opacity: 0;
+ transform: scale(.8);
+ transition: .5s all linear;
+ width: 100%;
+}
+div#churches figure img { 
+ width: 100%;
+}
+div#churches figure figcaption { 
+ position: relative;
+ background: rgba(0,0,0,.6);
+ color: #fff;
+ font-size: 1rem;
+ padding: 1rem;
+ transition: 1s 1s all linear;
+ margin-top: 1.6rem;
+ line-height: 1.4;
+ text-align: left;
+}
+#vallbona:checked~#churches #monges,
+#woodward:checked~#churches #presby,
+#woodward2:checked~#churches #presby2,
+#woodward3:checked~#churches #presby3,
+#woodward4:checked~#churches #presby4,
+#woodward5:checked~#churches #presby5,
+#woodward6:checked~#churches #presby6     { 
+ opacity: 1;
+ transform: scale(1);
+}
+#vallbona:checked~#churches #monges figcaption, 
+#woodward:checked~#churches #presby figcaption,
+#woodward2:checked~#churches #presby2 figcaption,
+#woodward3:checked~#churches #presby3 figcaption,
+#woodward4:checked~#churches #presby4 figcaption,
+#woodward5:checked~#churches #presby5 figcaption,
+#woodward6:checked~#churches #presby6 figcaption { 
+  top: -5rem;}
+

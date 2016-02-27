@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Imagenes</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins|Oswald' rel='stylesheet' type='text/css'>
+    
+    
+    
+    
+        <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body { 
+  background: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 9px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+div#church-container {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+div#church-container input[type="radio"] { display: none; }
+div#church-container label img { 
+ width: 20%;
+ display: block;
+ float: left;
+ clear: left;
+ border-right: 40px solid #fff;
+}
+div#church-container label:hover { cursor: pointer; 
+}
+div#churches { 
+ width: 90%;
+ position: relative;
+ margin-left: 22.5%;
+}
+div#churches figure { 
+ margin: 0;
+ position: absolute;
+ height: 100%;
+ opacity: 0;
+ transform: scale(.8);
+ transition: .5s all linear;
+ width: 100%;
+}
+div#churches figure img { 
+ width: 100%;
+}
+div#churches figure figcaption { 
+ position: relative;
+ background: rgba(0,0,0,.6);
+ color: #fff;
+ font-size: 1rem;
+ padding: 1rem;
+ transition: 1s 1s all linear;
+ margin-top: 1.6rem;
+ line-height: 1.4;
+ text-align: left;
+}
+#vallbona:checked~#churches #monges,
+#woodward:checked~#churches #presby,
+#woodward2:checked~#churches #presby2,
+#woodward3:checked~#churches #presby3,
+#woodward4:checked~#churches #presby4,
+#woodward5:checked~#churches #presby5,
+#woodward6:checked~#churches #presby6     { 
+ opacity: 1;
+ transform: scale(1);
+}
+#vallbona:checked~#churches #monges figcaption, 
+#woodward:checked~#churches #presby figcaption,
+#woodward2:checked~#churches #presby2 figcaption,
+#woodward3:checked~#churches #presby3 figcaption,
+#woodward4:checked~#churches #presby4 figcaption,
+#woodward5:checked~#churches #presby5 figcaption,
+#woodward6:checked~#churches #presby6 figcaption { 
+  top: -5rem;}
+
+
+    </style>
+
+    
+        <script src="js/prefixfree.min.js"></script>
+
+        <h1>-LAS SIETE MARAVILLAS DEL MUNDO-<br></h1>
+
+    
+  </head>
+
+  <body>
+
+  <div id="church-container">
+
+  <label for="vallbona">
+    <img src="images/001.jpg" alt></label>
+  <input type="radio" id="vallbona" name="churchy">
+  
+  <label for="woodward">
+    <img src="images/002.jpg"></label>
+  <input type="radio" id="woodward" name="churchy" checked>
+  
+  <label for="woodward2">
+    <img src="images/003.jpg" alt></label>
+  <input type="radio" id="woodward2" name="churchy">
+
+  <label for="woodward3">
+    <img src="images/004.jpg" alt></label>
+  <input type="radio" id="woodward3" name="churchy">
+
+  <label for="woodward4">
+    <img src="images/005.jpg" alt></label>
+  <input type="radio" id="woodward4" name="churchy">
+
+  <label for="woodward5">
+    <img src="images/006.jpg" alt></label>
+  <input type="radio" id="woodward5" name="churchy">
+
+  <label for="woodward6">
+    <img src="images/007.jpg" alt></label>
+  <input type="radio" id="woodward6" name="churchy">
+
+
+
+
+  <div id="churches">
+    <figure id="monges">
+      <img src="images/maravilla1.jpg" alt="Photograph of a corridor in Vallbona de les monges Monastery, Catalonia, Spain by José Luis Mieza">
+      <figcaption>1-Chichen Itzá la legendaria ciudad Maya ubicada en el sur de México.</figcaption>
+    </figure>
+
+    <figure id="presby">
+      <img src="images/maravilla2.jpg" alt="Interior photograph of Woodward Avenue Presbyterian Church in Detroit Michigan by Rich Harris">
+      <figcaption>2-La estatua de Cristo Redentor situada en la cima del cerro de Corcovado hacia Río de Janeiro en Brasil.</figcaption>
+    </figure>
+
+    <figure id="presby2">
+      <img src="images/maravilla3.jpg" alt="Interior photograph of Woodward Avenue Presbyterian Church in Detroit Michigan by Rich Harris">
+      <figcaption>3-Machu Picchu ubicado entre las montañas Huayna Picchu y Machu Picchu en Perú.</figcaption>
+    </figure>
+
+     <figure id="presby3">
+      <img src="images/maravilla4.jpg" alt="Interior photograph of Woodward Avenue Presbyterian Church in Detroit Michigan by Rich Harris">
+      <figcaption>4-El Coliseo Romano construido en el siglo I D.C, en el centro de Roma, Italia.</figcaption>
+    </figure>
+
+     <figure id="presby4">
+      <img src="images/maravilla5.jpg" alt="Interior photograph of Woodward Avenue Presbyterian Church in Detroit Michigan by Rich Harris">
+      <figcaption>5-El Taj Mahal situado en Agra una ciudad de Uttar Pradesh, en la India.</figcaption>
+    </figure>
+
+     <figure id="presby5">
+      <img src="images/maravilla6.jpg" alt="Interior photograph of Woodward Avenue Presbyterian Church in Detroit Michigan by Rich Harris">
+      <figcaption>6-La Gran Muralla China construida en el siglo 4 a.C. y reconstruida en el siglo 16.</figcaption>
+    </figure>
+
+     <figure id="presby6">
+      <img src="images/maravilla7.jpg" alt="Interior photograph of Woodward Avenue Presbyterian Church in Detroit Michigan by Rich Harris">
+      <figcaption>7-La ciudad de Petra, construida en el siglo 7 a.C. en Jordania.</figcaption>
+    </figure>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    
+    
+    
+    
+  </body>
+</html>
