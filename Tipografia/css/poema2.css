@@ -1,0 +1,101 @@
+#bg {
+  position: fixed; 
+  top: -2%; 
+  left: -10%; 
+  width: 110%; 
+  height: 110%;
+}
+#bg img {
+  position: relative; 
+  top: 0;
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	background: #fafafa;
+}
+
+.contenedor1 {
+	position: relative;
+	top: 35px;
+	/*border:1px solid blue;*/
+	width: 980px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.contenedor2 {
+	position: relative;
+	z-index: 5;
+	clear: both;
+/*	border: 1px solid green; */	
+	width: 500px;
+	margin:0 auto;
+}
+
+h1, h2 {
+	font-family: 'Qwigley', cursive;
+	font-size: 300px;
+}
+h4 {
+	font-family: 'Qwigley', cursive;
+	font-size: 30px;
+	color: black;
+}
+
+p {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/*.texto1, .texto2, .texto3, .texto4 {
+	border: 1px solid red;
+}*/
+
+.texto1 {
+	width: 300px;
+	float: left;
+	margin-left: 500px;
+}
+
+.texto1 h1 {
+	color: black;
+}
+
+.texto1 h1 span {
+	color: black;
+}
+
+.texto2 {
+	width: 420px;
+	float: left;
+	margin-left: 500px;
+}
+
+.texto2 h2 {
+	color: white;
+}
+
+.texto3, .texto4 {
+	position: absolute;
+	width: 400px;
+	color: white;
+}
+
+.texto3 {
+	top: -30px;
+	left: 320px;
+
+}
+
+.texto4 {
+	top: 80px;
+	left: 320px;
+	bottom:;
+}

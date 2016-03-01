@@ -1,0 +1,120 @@
+#bg {
+  position: fixed; 
+  top: 0%; 
+  left: 0%; 
+  width: 110%; 
+  height: 110%;
+}
+#bg img {
+  position: relative; 
+  top: 0;
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+body {
+	background: #fafafa;
+}
+
+.contenedor1 {
+	position: relative;
+	top: 75px;
+	/*border:1px solid blue;*/
+	width: 1000px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.contenedor2 {
+	position: relative;
+	z-index: 5;
+	clear: both;
+/*	border: 1px solid green; */	
+	width: 500px;
+	margin:0 auto;
+}
+
+h1, h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 60px;
+	color: #d18547;
+}
+h3 {
+	font-family: 'Shadows Into Light', cursive;
+	color: #6a477b;
+	font-size: 27px;
+	margin-top: 5px;
+}
+
+h4 {
+font-family: Times;
+	color: #d18547;
+	font-size: 17px;
+	margin-top: -5px;
+	margin-left: 1px;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	color: #6a477b;
+}
+
+/*.texto1, .texto2, .texto3, .texto4 {
+	border: 1px solid red;
+}*/
+
+.texto1 {
+	width: 600px;
+	float: left;
+	margin-left: 430px;
+}
+.texto1 h2{
+	font-size: 40px;
+	width: 600px;
+	margin-left: 50px;
+	margin-top: -4px;
+}
+
+.texto1 h1 {
+	color: #d18547;
+}
+
+.texto1 h1 span {
+	color: #204162;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.texto2 {
+	width: 420px;
+	float: left;
+	margin-left: 500px;
+}
+
+.texto2 h2 {
+	color: white;
+}
+
+.texto3, .texto4 {
+	position: absolute;
+	width: 600px;
+	color: white;
+}
+
+.texto3 {
+	top: 150px;
+	left: 230px;
+
+}
+
+.texto4 {
+	width: 420px;
+	top: 200px;
+	left: -200px;
+	bottom:;
+}

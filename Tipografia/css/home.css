@@ -1,0 +1,153 @@
+body {
+  font-family: 'Lora', serif;
+  background: #fafafa;
+  background-color: #ddd7ab;
+}
+
+.contenedor1 {
+  position: relative;
+  top: 15px;
+  /*border:1px solid blue;*/
+  width: 800px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.contenedor2 {
+  position: relative;
+  z-index: 5;
+  clear: both;
+/*  border: 1px solid green; */ 
+  width: 500px;
+  margin:0 auto;
+  margin-top: 500px;
+}
+
+h1, h2 {
+ font-family: 'Cookie', cursive;
+  font-size: 210px;
+  color: #281f12;
+}
+
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 100px;
+  line-height: 18px;
+  color: #5a4832;
+  margin-top: -30px;
+  margin-left: 333px;
+}
+
+/*.texto1, .texto2, .texto3, .texto4 {
+  border: 1px solid red;
+}*/
+
+.texto1 {
+  width: 700px;
+  float: left;
+  margin-left: 50px;
+}
+
+
+.texto1 h1 span {
+  color: #281f12;
+  font-family: 'Cookie', cursive;
+}
+
+.navbar {
+  padding-top: 30px;
+  min-height: 80px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.navbar-brand{
+  margin-left: 500px;
+}
+
+div {
+  margin: 20px auto;
+  max-width: 800px;
+  width: 400%;
+  color: red;
+}
+
+.images a {
+  margin-top: 125px;
+
+}
+
+.circular {
+  /* display items as block elements, inline positioning */
+  display: inline-block;
+  /* set the height of the image */
+  height: 70px;
+  /* hide the link text */
+  text-indent: -9999px;
+  /* set the width of the image */
+  width: 70px;
+  
+  /* use a radius to make the image into a circular shape */
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+
+  /* Add shadow to the box */
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/* simple hover effect */
+a.circular { 
+  opacity: .6; 
+  /* add fade transition effect to opacity change */
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out; /* Safari */
+}
+
+a.circular:hover { opacity: 1; }
+
+
+.btn-poema1 {
+  background: url(file:///Users/america_ML/Documents/chavon/spring/tipografia/semana5/EJERCICIO%20CHAGO/images/poema1.jpg) no-repeat;
+  background: #bc5858;
+}
+
+.btn-poema2 {
+  background: url(http://placekitten.com/g/300/300) no-repeat;
+  background: #343533;
+}
+
+.btn-poema3 {
+  background: #603813;
+}
+
+.btn-poema4 {
+background: #84120c;
+}
+
+.btn-poema5 {
+background: #423c40;
+}
+
+.btn-poema6 {
+background: #b15d5b;
+}
+
+.btn-poema7 {
+background: #204162;
+}
+
+.btn-poema8 {
+background: #2b687e;
+}
+
+.btn-poema9 {
+background: #bd9200;
+}
+
+.btn-poema10 {
+background: #686172;
+}
