@@ -1,3 +1,4 @@
+
 #bg {
   position: fixed; 
   top: -15%; 
@@ -16,10 +17,9 @@
   min-height: 50%;
 }
 
-
 body {
-  font-family: 'Lora', serif;
-  background: #fafafa;
+	font-family: 'Libre Baskerville', serif;
+	background: #fafafa;
 }
 
 .contenedor1 {
@@ -41,6 +41,7 @@ body {
   margin-top: 500px;
 }
 
+
 h1, h2 {
  font-family: 'Cookie', cursive;
   font-size: 210px;
@@ -58,7 +59,7 @@ p {
 }
 
 /*.texto1, .texto2, .texto3, .texto4 {
-  border: 1px solid red;
+	border: 1px solid red;
 }*/
 
 .texto1 {
