@@ -1,0 +1,51 @@
+@font-face{
+    font-family: "Gotham";
+    src: url(../fonts/Gotham-Book.otf);
+    src: url(../fonts/Gotham-Medium.otf);
+}
+
+.Logo {
+	margin-left: -100px;
+	margin-top: 50px;
+}
+
+p {
+	font-family: "Gotham-Book";
+	color: #606060;
+	font-size: 16px;
+	text-align: left;
+	margin-left: 250px;
+	margin-top: 150px;
+}
+
+h2 {
+font-family: "Gotham-Book";
+	color: #5d8500;
+	font-size: 17px;
+}
+
+.apple {
+
+margin-left: 550px;
+margin-top: -210px;
+}
+
+.image1 {
+	margin-left: -300px;
+	margin-top: 80px;
+}
+
+.image2 {
+	 margin-left: 400px;
+	 margin-top: -130px; 
+}
+
+.image3 {
+	margin-left: -400px;
+	margin-top: 50px;
+}
+
+.image4 {
+	margin-left: 400px;
+	margin-top: -150px;
+}
