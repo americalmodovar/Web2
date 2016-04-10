@@ -1,171 +1,258 @@
-#bg {
-  position: fixed; 
-  top: -15%; 
-  left: -5%; 
-  width: 110%; 
-  height: 110%;
-}
-#bg img {
-  position: relative; 
-  top: 0;
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-}
-
-
 body {
   font-family: 'Lora', serif;
   background: #fafafa;
 }
 
+h1, h2 {
+ font-family: 'Cookie', cursive;
+  font-size: 210px;
+  color: #392613;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 100px;
+  line-height: 18px;
+  color: #bf8040;
+  margin-top: -30px;
+  margin-left: 333px;
+}
+
 .contenedor1 {
   position: relative;
-  top: 15px;
+  top: -625px;
   /*border:1px solid blue;*/
   width: 800px;
   margin: 0 auto;
   z-index: 1;
 }
 
-.contenedor2 {
-  position: relative;
-  z-index: 5;
-  clear: both;
-/*  border: 1px solid green; */ 
-  width: 500px;
-  margin:0 auto;
-  margin-top: 500px;
-}
-
-h1, h2 {
- font-family: 'Cookie', cursive;
-  font-size: 210px;
-  color: #281f12;
-}
-
-
-p {
-  font-family: 'Lora', serif;
-  font-size: 100px;
-  line-height: 18px;
-  color: #5a4832;
-  margin-top: -30px;
-  margin-left: 333px;
-}
-
-/*.texto1, .texto2, .texto3, .texto4 {
-  border: 1px solid red;
-}*/
-
-.texto1 {
-  width: 700px;
-  float: left;
-  margin-left: 50px;
-}
-
-
-.texto1 h1 span {
-  color: #281f12;
-  font-family: 'Cookie', cursive;
-}
-
 .navbar {
-  padding-top: 30px;
-  min-height: 80px;
-  text-transform: uppercase;
+  background: transparent;
+  border: transparent;
+}
+.navbar .nav {
+  margin-left: 15px;
+  margin-right: 15px;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+/*.navbar .nav .active a{  //controls the active tab 
+  background:rgba(255,255,255,0.4);
+  border-color: rgba(255,255,255,0); 
+}*/
+.navbar .nav li a {
+  color: #bf8040;
+  margin-bottom: -23px;
+  font-size: 17px;
+}
+.navbar .nav .move-right a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0);
+}
+.nav-left-button {
+  margin-top: -21px;
+  opacity: 0.4;
+  border-radius: 0px;
+}
+.navbar .nav .nav-left-button a:hover {
   background-color: transparent;
+  border-color: transparent;
+}
+.navbar .nav .nav-left-button a {
+  color: #000000;
+}
+.navbar .nav .move-right {
+  float: right;
+}
+/**** navigation bar end ******/
+/**** 'Home' page start*****/
+.home {
+  background: url(' http://www.lonelyspeck.com/wp-content/uploads/2014/09/medium-format-astrophotography-4.jpg') center;
+  height: auto;
+  padding: 15px;
+}
+.title {
+  font-size: 100px;
+  color: #ffffff;
+  margin-top: 150px;
 }
 
-.navbar-brand{
-  margin-left: 500px;
+#Al {
+  font-family: 'Lora', serif;
+  font-size: 27px;
+  color: #5a4832;
 }
-
-div {
-  margin: 20px auto;
-  max-width: 800px;
-  width: 400%;
-  color: red;
+.row-quote {
+  margin-top: 0px;
+  margin-bottom: -5px;
 }
-
-.images a {
-  margin-top: 125px;
-
+.row-social {
+  margin-top: 50px;
 }
-
-.circular {
-  /* display items as block elements, inline positioning */
+.btn-fcc {
+  color: #ffffff;
+  background: #08640a;
+}
+.btn-fcc:hover {
+  color: #ffffff;
+  background: #004A14;
+}
+/*
+.btn-fcc:hover img{
+  opacity:0.1;
+}
+*/
+.btn-fcc:focus {
+  color: #ffffff;
+  background: #004A14;
+}
+.TopPhotoAttribute {
+  color: #ffffff;
+  margin-left: 2px;
+  margin-top: 290px;
+}
+/**** 'Home' page end*****/
+/**** 'About' page start*****/
+.about {
+  background: url(https://farm5.staticflickr.com/4044/4529918527_525e056d32_o.jpg);
+  height: auto;
+  padding: 20px;
+  background-size: cover;
+}
+.SecondPhotoAttribute {
+  color: #ffffff;
+  margin-left: -2px;
+  margin-top: 768px;
+}
+/*
+.navbar .nav .move-right a:active {
+    background:rgba(255,255,255,0.4);
+    border-color: rgba(255,255,255,0); 
+} */
+.portfolio {
+  background: url(https://farm3.staticflickr.com/2771/4430663256_5e1a7a5749_o.jpg) center;
+  height: auto;
+  padding: 20px;
+  background-size: cover;
+}
+.thumb {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
   display: inline-block;
-  /* set the height of the image */
-  height: 70px;
-  /* hide the link text */
-  text-indent: -9999px;
-  /* set the width of the image */
-  width: 70px;
+}
+.squares {
+  margin-top: -25px;
+}
+/*
+.thumbnail{
+  border-radius:0;
+  text-align:center;
+}
+
+
+a.thumbnail:hover{
+  text-decoration:none;
+}
+*/
+.ThirdPhotoAttribute {
+  color: #ffffff;
+  margin-left: -2px;
+  text-align: left;
+}
+/**** 'Contact' page start*****/
+.contact {
+  background: url(https://farm6.staticflickr.com/5713/20331301099_1402bbc2c4_o.jpg);
+  height: auto;
+  padding: 20px;
+  background-size: cover;
+}
+.LastPhotoAttribute {
+  color: #ffffff;
+  margin-left: -2px;
+  margin-top: 390px;
+}
+/* changing values based on screen width
+
+@media (max-width: 600px) {
+    // For mobile phones: 
+    .navbar .nav .move-right{
+        width:30%;  
+        font-size:23px;
+        
+    }
+    .navbar .nav{
+        margin-right:-50px;
+        margin-top:-5px;
+        border-color:transparent;
+    }
   
-  /* use a radius to make the image into a circular shape */
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-
-  /* Add shadow to the box */
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  .navbar .nav .move-right a:hover{
+    background:transparent;
+  }
+  
+  .title{
+    margin-top:110px;
+    font-size:80px;
+  }
+  
+  .quote{
+    font-size:25px;
+    
+  }
+  
+  #Al{
+    font-size:24px;
+    float:right;
+  }
+  
+  
+  [class*="col-"] {
+        display:block;
+        width: 100%;
+    }
+  
+  .page-header{
+    width:80%;
+    margin-left:60px;
+  }
+  
+  
+  #HeadShot{
+    text-align:center;
+    float:none;
+    zoom:60%;
+    margin-top:45px;
+    margin-bottom: -20px;
+  }
+  
+  .aboutMe .col-xs-12{
+    //margin-left:-40px;
+    //text-align:center;
+    
+  }
+  
+  .aboutMe .col-xs-12 h3{
+    font-size:16px;
+  }
+  
+  .aboutMe .col-xs-12 h4{
+    margin-left:-20px;
+    font-size:16px;
+  }
+  
+  .SecondPhotoAttribute{
+    margin-top:0;
+  }
+  
+  .thumb{
+    zoom:35%;
+  }
+  
+  .LastPhotoAttribute{
+    margin-top:300px;
+  }
+  
 }
-
-/* simple hover effect */
-a.circular { 
-  opacity: .6; 
-  /* add fade transition effect to opacity change */
-  transition: opacity 0.3s ease-in-out;
-  -webkit-transition: opacity 0.3s ease-in-out; /* Safari */
-}
-
-a.circular:hover { opacity: 1; }
-
-
-.btn-poema1 {
-  background: url(file:///Users/america_ML/Documents/chavon/spring/tipografia/semana5/EJERCICIO%20CHAGO/images/poema1.jpg) no-repeat;
-  background: #bc5858;
-}
-
-.btn-poema2 {
-  background: url(http://placekitten.com/g/300/300) no-repeat;
-  background: #343533;
-}
-
-.btn-poema3 {
-  background: #603813;
-}
-
-.btn-poema4 {
-background: #84120c;
-}
-
-.btn-poema5 {
-background: #423c40;
-}
-
-.btn-poema6 {
-background: #b15d5b;
-}
-
-.btn-poema7 {
-background: #204162;
-}
-
-.btn-poema8 {
-background: #2b687e;
-}
-
-.btn-poema9 {
-background: #bd9200;
-}
-
-.btn-poema10 {
-background: #686172;
-}
+*/
+/***************************/
