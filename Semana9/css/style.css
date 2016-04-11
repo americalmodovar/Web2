@@ -1,29 +1,18 @@
+html,
 body {
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Montserrat', sans-serif;
   color: #404040;
-  background-color: #ffffcc;
-  background-image: url("paper2.jpg");
-
+  background-color: black;
+    background-image: url('http://images6.fanpop.com/image/photos/33700000/30-Seconds-To-Mars-A-Beautiful-Lie-Music-Video-30-seconds-to-mars-33765130-1920-1080.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
-h2 {
-  font-size: 55px;
-}
-
-h5 {
-  font-size: 30px;
-}
-
-p {
-  font-size: 30px;
-}
-
-.form-control {
-  font-size: 22px;
-}
-
-.posts li {
-  font-size: 22px;
+iframe{
+  margin-left: 350px;
+  margin-top: 80px;
 }
 
 .container {
@@ -40,6 +29,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 10px;
+  color:white;
 }
 
 .posts {
@@ -59,11 +49,4 @@ p {
   margin-bottom: 10px;
   word-wrap: break-word;
   min-height: 42px;
-}
-
-.header {
-  margin-top: 50px;
-  background-color: #ffff80;
-  text-align: center;
-  padding: 1px;
 }
