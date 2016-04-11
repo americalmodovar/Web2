@@ -4,19 +4,16 @@
 	<meta charset="utf-8">
 	<title>jQuery UI Example Page</title>
 	<link href="jquery-ui.css" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<style>
-	img {padding-top: 40px;}
-	
 	body{
-		font-family: 'Oswald', sans-serif;
-		background-color: black;
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
 	}
 	.demoHeaders {
-		margin-top: 0.1em;
+		margin-top: 2em;
 	}
 	#dialog-link {
-		padding: .2em 1em .4em 0px;
+		padding: .4em 1em .4em 20px;
 		text-decoration: none;
 		position: relative;
 	}
@@ -53,46 +50,57 @@
 </head>
 <body>
 
-	
-	<center><img src="images/logo.png"></center>
+<h1>Welcome "choose your fav food"!</h1>
 
-<h1>Welcome to jQuery UI!</h1>
+<!-- Progressbar -->
+<h2 class="demoHeaders">Select your fav fruit</h2>
+<select id="selectmenu">
+	<option selected="selected">Apple</option>
+	<option>Orange</option>
+	<option>Grapes</option>
+	<option>Banana</option>
+	<option>Lime</option>
+</select>
 
-<div class="ui-widget">
-	<p>This page demonstrates the widgets and theme you selected in Download Builder. Please make sure you are using them with a compatible jQuery version.</p>
-</div>
+<h2 class="demoHeaders">Select your fav vegetable</h2>
+<select id="selectmenu">
+	<option selected="selected">Tomato</option>
+	<option>Lettuce</option>
+	<option>Onions</option>
+	<option>Cucumber</option>
+	<option>Broccoli</option>
+</select>
 
-<h1>YOUR COMPONENTS:</h1>
+<h2 class="demoHeaders">Select your fav meat</h2>
+<select id="selectmenu">
+	<option selected="selected">Chicken</option>
+	<option>Cow</option>
+	<option>Goat</option>
+	<option>Sausages</option>
+	<option>Turkey</option>
+</select>
 
+<h2 class="demoHeaders">Select your fav dessert</h2>
+<select id="selectmenu">
+	<option selected="selected">Cake</option>
+	<option>Brownie</option>
+	<option>Ice-cream</option>
+	<option>Chessecake</option>
+	<option>Cup cakes</option>
+</select>
 
-
-
-<!-- Accordion -->
-<h2 class="demoHeaders">Accordion</h2>
-<div id="accordion">
-	<h3>First</h3>
-	<div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
-	<h3>Second</h3>
-	<div>Phasellus mattis tincidunt nibh.</div>
-	<h3>Third</h3>
-	<div>Nam dui erat, auctor a, dignissim quis.</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
+<h1><br></br>Thanks for select!</h1>
 
 <script src="external/jquery/jquery.js"></script>
 <script src="jquery-ui.js"></script>
 <script>
+
+
+
 $( "#accordion" ).accordion();
+
+
+
 var availableTags = [
 	"ActionScript",
 	"AppleScript",
@@ -120,9 +128,18 @@ var availableTags = [
 $( "#autocomplete" ).autocomplete({
 	source: availableTags
 });
+
+
+
 $( "#button" ).button();
 $( "#radioset" ).buttonset();
+
+
+
 $( "#tabs" ).tabs();
+
+
+
 $( "#dialog" ).dialog({
 	autoOpen: false,
 	width: 400,
@@ -141,25 +158,49 @@ $( "#dialog" ).dialog({
 		}
 	]
 });
+
 // Link to open the dialog
 $( "#dialog-link" ).click(function( event ) {
 	$( "#dialog" ).dialog( "open" );
 	event.preventDefault();
 });
+
+
+
 $( "#datepicker" ).datepicker({
 	inline: true
 });
+
+
+
 $( "#slider" ).slider({
 	range: true,
 	values: [ 17, 67 ]
 });
+
+
+
 $( "#progressbar" ).progressbar({
 	value: 20
 });
+
+
+
 $( "#spinner" ).spinner();
+
+
+
 $( "#menu" ).menu();
+
+
+
 $( "#tooltip" ).tooltip();
+
+
+
 $( "#selectmenu" ).selectmenu();
+
+
 // Hover states on the static widgets
 $( "#dialog-link, #icons li" ).hover(
 	function() {
